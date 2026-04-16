@@ -6,7 +6,7 @@ const scenes = {
         subtitle: "",
         caption: "",
         hint: "",
-        image: "images/chapters/clinton.png",
+        image: "images/chapters/clinton.jpg",
         text: [
             "It was an ordinary evening at Clinton High School in Nob Hill, San Francisco.",
             "7:20 p.m. Nothing seemed wrong."
@@ -353,7 +353,7 @@ const scenes = {
         subtitle: "",
         caption: "",
         hint: "",
-        image: "images/chapters/corridor.png",
+        image: "images/chapters/corridor.jpg",
         text: [
             `You had made it out of the gym alive.
              But the danger was far from over..`
@@ -661,7 +661,7 @@ const scenes = {
     ch2_c6_1: {
         type: "content",
         label: "Chapter II",
-        image: "images/contents/kenbont.png",
+        image: "images/contents/kenbont.jpg",
         title: "",
         subtitle: "",
         caption: "",
@@ -735,7 +735,7 @@ const scenes = {
         subtitle: "",
         caption: "",
         hint: "Before the Daybreak: Escape from Clinton",
-        image: "images/endings/e_1.png",
+        image: "images/endings/e_1.jpg",
         text: [
             `A warm sensation spread through your body. After that, you remembered nothing.
 
@@ -755,7 +755,7 @@ const scenes = {
         subtitle: "",
         caption: "",
         hint: "Before the Daybreak: Escape from Clinton",
-        image: "images/endings/e_2.png",
+        image: "images/endings/e_2.jpg",
         text: [
             `Eventually, you saw the streetlights beyond the school.
 
