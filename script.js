@@ -834,6 +834,25 @@ function showScene(sceneId) {
         choicesElement.appendChild(button);
     }
 }
+function updateSceneImage(imagePath) {
+    const sceneImage = document.getElementById("scene-image");
+
+    if (!imagePath) {
+        sceneImage.style.display = "none";
+        sceneImage.removeAttribute("src");
+        return;
+    }
+
+    sceneImage.style.display = "none";
+
+    const tempImg = new Image();
+    tempImg.onload = function () {
+        sceneImage.src = imagePath;
+        sceneImage.style.display = "block";
+    };
+    tempImg.src = imagePath;
+}
 
 
 showScene("ch_1");
+updateSceneImage(scene.image);
